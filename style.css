@@ -1,0 +1,99 @@
+* {
+  position: relative;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  font-size: 0;
+}
+
+.section1 .banner img.background {
+  width: 100%;
+}
+.section1 .banner img.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  width: 40%;
+}
+.section1 .banner p.title_english {
+  font-family: "Copperplate Gothic";
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  top: 60%;
+}
+
+.section2 img.background {
+  width: 100%;
+}
+.section2 p.intro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: white;
+  line-height: 200%;
+  width: 50%;
+  left: 33%;
+}
+
+.section3 {
+  background: linear-gradient(#b4e7fd, white);
+  height: 130vh;
+  overflow: hidden;
+}
+.section3 .crane {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.section3 .crane1 {
+  width: 30%;
+  top: 20%;
+  left: 20%;
+}
+.section3 .crane2 {
+  width: 20%;
+  top: 10%;
+}
+.section3 .crane3 {
+  width: 25%;
+  left: 85%;
+  top: 15%;
+}
+.section3 .crane4 {
+  width: 35%;
+  left: 75%;
+  top: 49%;
+}
+.section3 p.intro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #366087;
+  line-height: 200%;
+  width: 50%;
+  left: 30%;
+  top: 75%;
+  font-weight: 800;
+  padding: 1%;
+  border: solid 2px #b4e7fd;
+}
